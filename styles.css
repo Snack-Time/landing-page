@@ -9,7 +9,7 @@ body {
 }
 
 .header-container {
-
+    
 }
 
 .top-bar {
@@ -17,16 +17,31 @@ body {
     justify-content: space-between;
 }
 
-.information {
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .testimonial {
-
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
 }
 
 .call-to-action {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 
+.footer {
+    text-align: center;
 }
 
 .driving-img {
