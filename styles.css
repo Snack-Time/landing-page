@@ -14,6 +14,8 @@ body {
 .top-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 230px
 }
 
 .logo {
@@ -34,7 +36,7 @@ body {
     font-weight: bolder;
 }
 
-.hero-secondary, .header-link .info-box-desc {
+.hero-secondary, .header-link {
     font-size: 18px;
     color:#E5E7EB
 }
@@ -68,6 +70,12 @@ body {
     align-items: center;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937
+}
+
 .info-boxes {
     display: flex;
     flex-direction: row;
@@ -93,6 +101,7 @@ body {
 
 .info-box-desc {
     text-align: center;
+    color:#1f2937
 }
 
 /** INFO SECTION ENDS I HOPE. TESTIMONIAL SECTION BEGINS **/
@@ -101,7 +110,24 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    color: #1f2937;
 }
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    padding: 0 180px;
+}
+
+.person-quoted {
+    text-align: right;
+    padding: 0 128px;
+    font-weight: bold;
+    margin-top: auto;
+    font-size: 20px;
+}
+
 
 /** TESTIMONIAL SECTION ENDS. CALL TO ACTION SECTION BEGINS **/
 
@@ -128,5 +154,6 @@ body {
 
 .footer {
     text-align: center;
+    color: #f9faf8
 }
 
