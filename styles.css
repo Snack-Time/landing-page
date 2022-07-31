@@ -50,6 +50,9 @@ body {
     background-color: #2882f6;
     color: #f9faf8;
     font-weight: bold;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
 }
 
 /** BUTTONS ARE FUN **/
@@ -135,6 +138,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    align-items: center;
     background-color: #2882f6;
     margin: 40px 150px;
     border-radius: 10px;
