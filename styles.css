@@ -71,7 +71,8 @@ body {
 .info-boxes {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 .info-box {
@@ -79,6 +80,8 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 32px;
+    overflow-wrap: break-word;
+    inline-size: 200px;
 }
 
 .info-box-img {
