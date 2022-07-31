@@ -5,6 +5,8 @@ body {
     margin: auto;
 }
 
+/** HEADER STUFF, WITH SOME MULTI SELECTORS IF CONVIENENT (PROBABLY TYPO'D THAT LAST WORD WHOOPS) **/
+
 .header-container, .footer {
     background-color: #1f2937;
 }
@@ -48,6 +50,8 @@ body {
     font-weight: bold;
 }
 
+/** BUTTONS ARE FUN **/
+
 .button-one {
     border: none
 }
@@ -56,17 +60,25 @@ body {
     border: solid #f9faf8 2px
 }
 
+/** HEADER ENDS. INFO SECTION BEGINS **/
+
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+
+
+/** INFO SECTION ENDS I HOPE. TESTIMONIAL SECTION BEGINS **/
+
 .testimonial {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
 }
+
+/** TESTIMONIAL SECTION ENDS. CALL TO ACTION SECTION BEGINS **/
 
 .call-to-action {
     display: flex;
@@ -86,6 +98,8 @@ body {
 .sign-up-header {
     padding-bottom: 0;
 }
+
+/** CALL TO ACTION ENDS. MISC STUFF BEGINS. MY LAST NOTE TO MYSELF. **/ 
 
 .footer {
     text-align: center;
