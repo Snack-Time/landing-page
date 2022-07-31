@@ -34,7 +34,7 @@ body {
     font-weight: bolder;
 }
 
-.hero-secondary, .header-link {
+.hero-secondary, .header-link .info-box-desc {
     font-size: 18px;
     color:#E5E7EB
 }
@@ -68,7 +68,29 @@ body {
     align-items: center;
 }
 
+.info-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+}
+
+.info-box-img {
+    width: 200px; 
+    height: 200px;
+    border: solid #2882f6 2px;
+    border-radius: 5px;
+}
+
+.info-box-desc {
+    text-align: center;
+}
 
 /** INFO SECTION ENDS I HOPE. TESTIMONIAL SECTION BEGINS **/
 
@@ -105,6 +127,3 @@ body {
     text-align: center;
 }
 
-.driving-img {
-    width: 250px;
-}
